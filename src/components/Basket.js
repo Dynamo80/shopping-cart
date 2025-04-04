@@ -40,6 +40,7 @@ export default function Basket( props ) {
                     <div className="col-2"><strong>Total Price</strong></div>
                     <div className="col-1 text-right"><strong>{totalPrice.toFixed(2)}</strong></div>
                 </div>
+                <button>Checkout</button>
                 </>
             )}
         </aside>

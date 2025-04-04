@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header></Header>
+      <Header countCartItems={cartItems.length}></Header>
       <div className='row'>
       <Main onAdd={onAdd} products={products}></Main>
       <Basket onAdd={onAdd} cartItems={cartItems} onRemove={onRemove}></Basket>
